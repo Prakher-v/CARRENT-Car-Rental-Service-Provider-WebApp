@@ -1,0 +1,85 @@
+boby {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1{
+    margin: 0;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.section{
+    padding: 2rem 0;
+}
+
+.car-grid, .services-list, .contain-form {
+    display: flex;
+    gap: 1rem;
+}
+
+.car-item, .services-list, .contain-item{
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.car-item img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.car-item h3, .services-list h3, .contain-item h3{
+    margin: 1rem 0 0.5rem;
+}
+
+button {
+    background: #555;
+}
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+@media (max-width: 760px){
+    .car-grid, .services-list, .contain-form{
+        flex-direction: column;
+    }
+    nav ul li{
+        display: block;
+        margin: 0.5rem 0;
+    }
+}

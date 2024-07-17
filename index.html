@@ -1,1 +1,91 @@
-<dev> Hello </dev>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARRENT - CAR RENTAL SERVICE PROVIDER</title>
+    <link rel="stylesheet" href="styles.css">
+    <script scr ="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CARRENT</h1>
+            <nav>
+                <ul>
+                    <li><a href="#featured-cars">CARS</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="featured-cars" class="section">
+        <div class="container">
+            <h2>CARS</h2>
+            <div class="car-grid">
+                <!-- car should be added here --->
+                <div class="car-item">
+                    <img src="https://th.bing.com/th/id/R.ae8650b8f9389b339aa9efb8a8927cc1?rik=Q2NIB6%2bgXIaX1A&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f01%2f290880-orange-BMW-car-German_car-BMW_M3_GTS.jpg&ehk=I9gf393Ua2%2b%2bWG8ccLeYVZnTkgm0%2bKVXnrFkMwqRlUs%3d&risl=&pid=ImgRaw&r=0" alt="Car1" class="car-img">
+                    <h3>Car Model 1</h3>
+                    <p>Car Description 1</p>
+                    <p>Car Price $55/day</p>
+                    <button class="btn">Book Now</button>
+                </div>
+                <div class="car-item">
+                    <img src="https://autos.hamariweb.com/images/carimages/AAciu0Y.jpg" alt="Car2" class="car-img">
+                    <h3>Car Model 2</h3>
+                    <p>Car Description 2</p>
+                    <p>Car Price $77/day</p>
+                    <button class="btn">Book Now</button>
+                </div>
+                <!-- Add i can add more here-->
+            </div>
+        </div>
+    </section>
+    <section id="service" class="section">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="Services-List">
+                <div class="service-item">
+                    <h3>Easy Booking</h3>
+                    <p>Book your car online and get it delivered to your doorstep</p>
+                </div>
+                <div class="service-item">
+                    <h3>24/7 Support</h3>
+                    <p>Our support team is available 24/7 to assist you</p>
+                </div>
+                <div class="service-item">
+                    <h3>Wide Range of Cars</h3>
+                    <p>Choose from a wide range of cars to suit your needs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <from id="contain-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </from>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 CARRENT.All Right Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
